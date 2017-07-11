@@ -1,7 +1,9 @@
 # Semi-analytical_groundwater_plume_model
 A julia-based script to compute groundwater plumes by superposition and numerical integration
 
-This julia script integrates groundwater plume source terms to develop an advective-dispersive model for informing allocation calculations. Multiple sources with different shapes and time-dependent release histories are supported, as are scale-dependent dispersion coefficients. The metholodology is discussed in more detail on my blog (link pending). 
+![Preview](https://numericalenvironmental.files.wordpress.com/2017/07/plume_map.png)
+
+This julia script integrates groundwater plume source terms to develop an advective-dispersive model for informing allocation calculations. Multiple sources with different shapes and time-dependent release histories are supported, as are scale-dependent dispersion coefficients. The metholodology is discussed in more detail on my blog (https://numericalenvironmental.wordpress.com/2017/07/11/a-semi-analytical-groundwater-plume-model-for-allocation-python-versus-julia-speed-comparison/). 
 
 The following text input files are required:
 
